@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6610397A17C91BE8003F4CF7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6610397917C91BE8003F4CF7 /* UIKit.framework */; };
+		6610397C17C91BE8003F4CF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6610397B17C91BE8003F4CF7 /* Foundation.framework */; };
+		6610397E17C91BE8003F4CF7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6610397D17C91BE8003F4CF7 /* CoreGraphics.framework */; };
+		6610398417C91BE8003F4CF7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6610398217C91BE8003F4CF7 /* InfoPlist.strings */; };
+		6610398617C91BE8003F4CF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6610398517C91BE8003F4CF7 /* main.m */; };
+		6610398A17C91BE8003F4CF7 /* quizCardAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6610398917C91BE8003F4CF7 /* quizCardAppDelegate.m */; };
+		6610398C17C91BE8003F4CF7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6610398B17C91BE8003F4CF7 /* Default.png */; };
+		6610398E17C91BE9003F4CF7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6610398D17C91BE8003F4CF7 /* Default@2x.png */; };
+		6610399017C91BE9003F4CF7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6610398F17C91BE9003F4CF7 /* Default-568h@2x.png */; };
+		6610399317C91BE9003F4CF7 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6610399117C91BE9003F4CF7 /* MainStoryboard.storyboard */; };
+		6610399617C91BE9003F4CF7 /* quizCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6610399517C91BE9003F4CF7 /* quizCardViewController.m */; };
+		6610399E17C92039003F4CF7 /* squaresViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6610399D17C92039003F4CF7 /* squaresViewController.m */; };
+		661039B217C93461003F4CF7 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 661039AD17C93461003F4CF7 /* 1.png */; };
+		661039B317C93461003F4CF7 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 661039AE17C93461003F4CF7 /* 2.png */; };
+		661039B417C93461003F4CF7 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 661039AF17C93461003F4CF7 /* 3.png */; };
+		661039B517C93461003F4CF7 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 661039B017C93461003F4CF7 /* 4.png */; };
+		661039B617C93461003F4CF7 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 661039B117C93461003F4CF7 /* 5.png */; };
+		661039B917C9347A003F4CF7 /* check.gif in Resources */ = {isa = PBXBuildFile; fileRef = 661039B717C9347A003F4CF7 /* check.gif */; };
+		661039BA17C9347A003F4CF7 /* redX.png in Resources */ = {isa = PBXBuildFile; fileRef = 661039B817C9347A003F4CF7 /* redX.png */; };
+		661039BD17C94378003F4CF7 /* questionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 661039BC17C94378003F4CF7 /* questionViewController.m */; };
+		6695C15A17CADD1C0003C138 /* frame.png in Resources */ = {isa = PBXBuildFile; fileRef = 6695C15917CADD1C0003C138 /* frame.png */; };
+		669710E817CD510E00A5360F /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 669710E717CD510E00A5360F /* Parse.framework */; };
+		669710EA17CD539900A5360F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 669710E917CD539900A5360F /* CFNetwork.framework */; };
+		669710EC17CD53B500A5360F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 669710EB17CD53B500A5360F /* CoreLocation.framework */; };
+		669710EE17CD53C600A5360F /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 669710ED17CD53C600A5360F /* libz.1.1.3.dylib */; };
+		669710F017CD53D300A5360F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 669710EF17CD53D300A5360F /* MobileCoreServices.framework */; };
+		669710F217CD53DD00A5360F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 669710F117CD53DD00A5360F /* QuartzCore.framework */; };
+		669710F417CD53EF00A5360F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 669710F317CD53EF00A5360F /* Security.framework */; };
+		669710F617CD53FC00A5360F /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 669710F517CD53FC00A5360F /* StoreKit.framework */; };
+		669710F817CD540A00A5360F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 669710F717CD540A00A5360F /* SystemConfiguration.framework */; };
+		669710FA17CD86E600A5360F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 669710F917CD86E600A5360F /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6610397617C91BE8003F4CF7 /* quizCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = quizCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6610397917C91BE8003F4CF7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6610397B17C91BE8003F4CF7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6610397D17C91BE8003F4CF7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6610398117C91BE8003F4CF7 /* quizCard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "quizCard-Info.plist"; sourceTree = "<group>"; };
+		6610398317C91BE8003F4CF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6610398517C91BE8003F4CF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6610398717C91BE8003F4CF7 /* quizCard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "quizCard-Prefix.pch"; sourceTree = "<group>"; };
+		6610398817C91BE8003F4CF7 /* quizCardAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = quizCardAppDelegate.h; sourceTree = "<group>"; };
+		6610398917C91BE8003F4CF7 /* quizCardAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = quizCardAppDelegate.m; sourceTree = "<group>"; };
+		6610398B17C91BE8003F4CF7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		6610398D17C91BE8003F4CF7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		6610398F17C91BE9003F4CF7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6610399217C91BE9003F4CF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		6610399417C91BE9003F4CF7 /* quizCardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = quizCardViewController.h; sourceTree = "<group>"; };
+		6610399517C91BE9003F4CF7 /* quizCardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = quizCardViewController.m; sourceTree = "<group>"; };
+		6610399C17C92039003F4CF7 /* squaresViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = squaresViewController.h; sourceTree = "<group>"; };
+		6610399D17C92039003F4CF7 /* squaresViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = squaresViewController.m; sourceTree = "<group>"; };
+		661039AD17C93461003F4CF7 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		661039AE17C93461003F4CF7 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		661039AF17C93461003F4CF7 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		661039B017C93461003F4CF7 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		661039B117C93461003F4CF7 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		661039B717C9347A003F4CF7 /* check.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = check.gif; sourceTree = "<group>"; };
+		661039B817C9347A003F4CF7 /* redX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redX.png; sourceTree = "<group>"; };
+		661039BB17C94378003F4CF7 /* questionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = questionViewController.h; sourceTree = "<group>"; };
+		661039BC17C94378003F4CF7 /* questionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = questionViewController.m; sourceTree = "<group>"; };
+		6695C15917CADD1C0003C138 /* frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame.png; sourceTree = "<group>"; };
+		669710E717CD510E00A5360F /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = quizCard/Parse.framework; sourceTree = "<group>"; };
+		669710E917CD539900A5360F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		669710EB17CD53B500A5360F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		669710ED17CD53C600A5360F /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		669710EF17CD53D300A5360F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		669710F117CD53DD00A5360F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		669710F317CD53EF00A5360F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		669710F517CD53FC00A5360F /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		669710F717CD540A00A5360F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		669710F917CD86E600A5360F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6610397317C91BE8003F4CF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				669710FA17CD86E600A5360F /* AudioToolbox.framework in Frameworks */,
+				669710F817CD540A00A5360F /* SystemConfiguration.framework in Frameworks */,
+				669710F617CD53FC00A5360F /* StoreKit.framework in Frameworks */,
+				669710F417CD53EF00A5360F /* Security.framework in Frameworks */,
+				669710F217CD53DD00A5360F /* QuartzCore.framework in Frameworks */,
+				669710F017CD53D300A5360F /* MobileCoreServices.framework in Frameworks */,
+				669710EE17CD53C600A5360F /* libz.1.1.3.dylib in Frameworks */,
+				669710EC17CD53B500A5360F /* CoreLocation.framework in Frameworks */,
+				6610397E17C91BE8003F4CF7 /* CoreGraphics.framework in Frameworks */,
+				669710EA17CD539900A5360F /* CFNetwork.framework in Frameworks */,
+				6610397A17C91BE8003F4CF7 /* UIKit.framework in Frameworks */,
+				6610397C17C91BE8003F4CF7 /* Foundation.framework in Frameworks */,
+				669710E817CD510E00A5360F /* Parse.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6610396D17C91BE8003F4CF7 = {
+			isa = PBXGroup;
+			children = (
+				6610397F17C91BE8003F4CF7 /* quizCard */,
+				6610397817C91BE8003F4CF7 /* Frameworks */,
+				6610397717C91BE8003F4CF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6610397717C91BE8003F4CF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6610397617C91BE8003F4CF7 /* quizCard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6610397817C91BE8003F4CF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				669710ED17CD53C600A5360F /* libz.1.1.3.dylib */,
+				669710F917CD86E600A5360F /* AudioToolbox.framework */,
+				669710F717CD540A00A5360F /* SystemConfiguration.framework */,
+				669710F517CD53FC00A5360F /* StoreKit.framework */,
+				669710F317CD53EF00A5360F /* Security.framework */,
+				669710EB17CD53B500A5360F /* CoreLocation.framework */,
+				669710F117CD53DD00A5360F /* QuartzCore.framework */,
+				669710EF17CD53D300A5360F /* MobileCoreServices.framework */,
+				669710E917CD539900A5360F /* CFNetwork.framework */,
+				669710E717CD510E00A5360F /* Parse.framework */,
+				6610397917C91BE8003F4CF7 /* UIKit.framework */,
+				6610397B17C91BE8003F4CF7 /* Foundation.framework */,
+				6610397D17C91BE8003F4CF7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6610397F17C91BE8003F4CF7 /* quizCard */ = {
+			isa = PBXGroup;
+			children = (
+				6695C15917CADD1C0003C138 /* frame.png */,
+				661039B717C9347A003F4CF7 /* check.gif */,
+				661039B817C9347A003F4CF7 /* redX.png */,
+				661039AD17C93461003F4CF7 /* 1.png */,
+				661039AE17C93461003F4CF7 /* 2.png */,
+				661039AF17C93461003F4CF7 /* 3.png */,
+				661039B017C93461003F4CF7 /* 4.png */,
+				661039B117C93461003F4CF7 /* 5.png */,
+				6610398817C91BE8003F4CF7 /* quizCardAppDelegate.h */,
+				6610398917C91BE8003F4CF7 /* quizCardAppDelegate.m */,
+				6610399117C91BE9003F4CF7 /* MainStoryboard.storyboard */,
+				6610399417C91BE9003F4CF7 /* quizCardViewController.h */,
+				6610399517C91BE9003F4CF7 /* quizCardViewController.m */,
+				6610398017C91BE8003F4CF7 /* Supporting Files */,
+				6610399C17C92039003F4CF7 /* squaresViewController.h */,
+				6610399D17C92039003F4CF7 /* squaresViewController.m */,
+				661039BB17C94378003F4CF7 /* questionViewController.h */,
+				661039BC17C94378003F4CF7 /* questionViewController.m */,
+			);
+			path = quizCard;
+			sourceTree = "<group>";
+		};
+		6610398017C91BE8003F4CF7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6610398117C91BE8003F4CF7 /* quizCard-Info.plist */,
+				6610398217C91BE8003F4CF7 /* InfoPlist.strings */,
+				6610398517C91BE8003F4CF7 /* main.m */,
+				6610398717C91BE8003F4CF7 /* quizCard-Prefix.pch */,
+				6610398B17C91BE8003F4CF7 /* Default.png */,
+				6610398D17C91BE8003F4CF7 /* Default@2x.png */,
+				6610398F17C91BE9003F4CF7 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6610397517C91BE8003F4CF7 /* quizCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6610399917C91BE9003F4CF7 /* Build configuration list for PBXNativeTarget "quizCard" */;
+			buildPhases = (
+				6610397217C91BE8003F4CF7 /* Sources */,
+				6610397317C91BE8003F4CF7 /* Frameworks */,
+				6610397417C91BE8003F4CF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = quizCard;
+			productName = quizCard;
+			productReference = 6610397617C91BE8003F4CF7 /* quizCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6610396E17C91BE8003F4CF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = quizCard;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = cisdev1;
+			};
+			buildConfigurationList = 6610397117C91BE8003F4CF7 /* Build configuration list for PBXProject "quizCard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6610396D17C91BE8003F4CF7;
+			productRefGroup = 6610397717C91BE8003F4CF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6610397517C91BE8003F4CF7 /* quizCard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6610397417C91BE8003F4CF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6610398417C91BE8003F4CF7 /* InfoPlist.strings in Resources */,
+				6610398C17C91BE8003F4CF7 /* Default.png in Resources */,
+				6610398E17C91BE9003F4CF7 /* Default@2x.png in Resources */,
+				6610399017C91BE9003F4CF7 /* Default-568h@2x.png in Resources */,
+				6610399317C91BE9003F4CF7 /* MainStoryboard.storyboard in Resources */,
+				661039B217C93461003F4CF7 /* 1.png in Resources */,
+				661039B317C93461003F4CF7 /* 2.png in Resources */,
+				661039B417C93461003F4CF7 /* 3.png in Resources */,
+				661039B517C93461003F4CF7 /* 4.png in Resources */,
+				661039B617C93461003F4CF7 /* 5.png in Resources */,
+				661039B917C9347A003F4CF7 /* check.gif in Resources */,
+				661039BA17C9347A003F4CF7 /* redX.png in Resources */,
+				6695C15A17CADD1C0003C138 /* frame.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6610397217C91BE8003F4CF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6610398617C91BE8003F4CF7 /* main.m in Sources */,
+				6610398A17C91BE8003F4CF7 /* quizCardAppDelegate.m in Sources */,
+				6610399617C91BE9003F4CF7 /* quizCardViewController.m in Sources */,
+				6610399E17C92039003F4CF7 /* squaresViewController.m in Sources */,
+				661039BD17C94378003F4CF7 /* questionViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6610398217C91BE8003F4CF7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6610398317C91BE8003F4CF7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6610399117C91BE9003F4CF7 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6610399217C91BE9003F4CF7 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6610399717C91BE9003F4CF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		6610399817C91BE9003F4CF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6610399A17C91BE9003F4CF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/quizCard\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "quizCard/quizCard-Prefix.pch";
+				INFOPLIST_FILE = "quizCard/quizCard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6610399B17C91BE9003F4CF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/quizCard\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "quizCard/quizCard-Prefix.pch";
+				INFOPLIST_FILE = "quizCard/quizCard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6610397117C91BE8003F4CF7 /* Build configuration list for PBXProject "quizCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6610399717C91BE9003F4CF7 /* Debug */,
+				6610399817C91BE9003F4CF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6610399917C91BE9003F4CF7 /* Build configuration list for PBXNativeTarget "quizCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6610399A17C91BE9003F4CF7 /* Debug */,
+				6610399B17C91BE9003F4CF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6610396E17C91BE8003F4CF7 /* Project object */;
+}
